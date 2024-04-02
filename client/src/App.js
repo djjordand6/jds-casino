@@ -1,9 +1,11 @@
 import './App.css';
+import RouletteBoard from './components/RouletteBoard.js';
 import RouletteWheel from './components/RouletteWheel.js';
 
 function App() {
   return (
-    <div className="roulette">
+    <div className='cont'>
+      <RouletteBoard />
       <RouletteWheel />
     </div>
   );

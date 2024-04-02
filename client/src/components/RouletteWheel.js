@@ -10,12 +10,12 @@ function RouletteWheel() {
     }
 
     return (
-        <div className='container'>
+        <div className='wheel-container'>
             <div>
                 {wheel}
             </div>
             <div>
-                <button onClick={() => setWheel(getRandomInt(10))}>CLICK!</button>
+                <button onClick={() => setWheel(getRandomInt(100))}>CLICK!</button>
             </div>
         </div>
     );

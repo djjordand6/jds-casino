@@ -1,10 +1,10 @@
-.wheel-container {
+.board-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: rgb(157, 8, 202);
+    
+    background-color: rgb(118, 4, 153);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     font-weight: bolder;
