@@ -1,10 +1,12 @@
 .board-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    padding: 2px;
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(118, 4, 153);
+    /* background-color: rgb(118, 4, 153); */
+    border: 1px solid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
     font-weight: bolder;

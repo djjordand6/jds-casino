@@ -1,11 +1,28 @@
+import BoardCell from './BoardCell';
 import './RouletteBoard.css';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 function RouletteBoard() {
 
+    const [cells, setCells] = useState([]);
+
+    useEffect(() => {
+        generateCells();
+    }, []);
+
+    const generateCells = () => {
+        const genCells = [];
+
+        for (let i = 0; i < 38; i++) {
+            genCells.push(<BoardCell key={i} number={i}/>);
+        }
+
+        setCells(genCells);
+    }
+
     return (
         <div className='board-container'>
-        *Place board here*
+        { cells }
         </div>
     );
   }
