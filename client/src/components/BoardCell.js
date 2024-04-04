@@ -1,10 +1,10 @@
 import './BoardCell.css';
 import React from 'react';
 
-function BoardCell() {
-
+function BoardCell(props) {
     return (
-        <div>
+        <div className = "board-cell" id={props.number + 1}>
+            {props.number + 1}
         </div>
     );
   }
