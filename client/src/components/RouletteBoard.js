@@ -13,7 +13,7 @@ function RouletteBoard() {
     const generateCells = () => {
         const genCells = [];
 
-        for (let i = 0; i < 38; i++) {
+        for (let i = -1; i < 36; i++) {
             genCells.push(<BoardCell key={i} number={i}/>);
         }
 

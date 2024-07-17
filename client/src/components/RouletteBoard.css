@@ -1,9 +1,8 @@
 .board-container {
     display: grid;
-    grid-template-columns: repeat(9, 50px);
-    padding: 2px;
+    grid-template-columns: repeat(6, 50px);
+    gap: 10px;
     justify-content: center;
-    align-items: center;
     
     /* background-color: rgb(118, 4, 153); */
     border: 1px solid;
