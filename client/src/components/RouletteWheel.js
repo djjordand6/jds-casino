@@ -8,6 +8,7 @@ function RouletteWheel() {
     useEffect(() => {
         const cell = document.getElementById(wheel);
         console.log(cell);
+        //cell.style.color = "red";
     }, [wheel]);
 
     function getRandomInt(max) {
@@ -20,7 +21,7 @@ function RouletteWheel() {
                 {wheel}
             </div>
             <div>
-                <button className='clicker' onClick={() => setWheel(getRandomInt(38))}>CLICK!</button> 
+                <button className='clicker' onClick={() => setWheel(getRandomInt(36))}>Spin!</button> 
             </div>
         </div>
     );
